@@ -1,0 +1,59 @@
+
+
+
+// 全局的 样式  golbal css
+
+// css 后缀不能省略   
+@import "animate.css";
+@import "common";
+@import "antd-mobile.css";
+@import "fonts/iconfont.css";
+
+
+* { touch-action: pan-y; } 
+
+
+$base_color:#000;
+$base_font:40px;
+
+html,body,#root,.app,.main{
+    width:100vw;
+    height:100vh;
+   
+}
+
+.msg{
+    width:200px;
+    height:300px;  /*no*/
+    background: darkorchid;
+}
+
+.box{
+    border:4px solid darkgreen;
+    background: #ccc;
+}
+
+.h2{
+    color:darkmagenta;
+}
+
+.btn {
+    border:none;
+    outline:none;
+    padding:20px;  /*no*/
+    border-radius: 6px;
+    margin:20px;    
+}
+
+.move-in{
+    animation: zoomInDown .9s; 
+}
+
+.move-out{
+    animation: zoomOutDown .9s; 
+}
+
+.active{
+    color:#0f0;
+    background: darkmagenta;
+}
